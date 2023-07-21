@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Injectable } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html'
-})
-export class AppComponent { }
+@Injectable({providedIn: 'root'})
+export class Logger {
+  writeCount(count: number) {
+    console.warn(count);
+  }
+}
 
 
 /*

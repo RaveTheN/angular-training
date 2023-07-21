@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html'
+@Component ({
+  selector: 'hello-world-interpolation',
+  templateUrl: './hello-world-interpolation.component.html'
 })
-export class AppComponent { }
+export class HelloWorldInterpolationComponent {
+    message = 'Hello, World!';
+}
 
 
 /*
