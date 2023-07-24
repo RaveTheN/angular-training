@@ -9,7 +9,7 @@ import { HelloWorldDependencyInjectionComponent } from './hello-world-di/hello-w
 import { HelloWorldInterpolationComponent } from './hello-world-interpolation/hello-world-interpolation.component';
 import { HelloWorldBindingsComponent } from './hello-world-bindings/hello-world-bindings.component';
 import { FirstComponent } from './first-component/first.component';
-
+import { MapComponent } from './map/map.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +20,7 @@ import { FirstComponent } from './first-component/first.component';
     HelloWorldInterpolationComponent,
     HelloWorldBindingsComponent,
     FirstComponent,
+    MapComponent,
   ],
   imports: [BrowserModule],
   providers: [],
